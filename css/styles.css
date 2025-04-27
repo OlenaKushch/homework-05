@@ -470,6 +470,8 @@ p {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/*FOOTER*/
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -484,6 +486,7 @@ p {
 }
 .footer-container {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
 }
 
@@ -496,7 +499,7 @@ p {
 
 .social-footer {
   display: flex;
-
+  justify-content: space-between;
   gap: 16px;
   flex-shrink: 0;
   align-items: flex-start;
@@ -518,10 +521,7 @@ p {
 .social-footer-link:focus {
   background-color: #31d0aa;
 }
-.form-box {
-  display: flex;
-  align-items: center;
-}
+
 .form-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -590,9 +590,18 @@ p {
   color: #8e8f99;
   margin-bottom: 4px;
 }
+.subs-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
 .input-box {
   margin-bottom: 8px;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .input-box svg {
   position: absolute;
