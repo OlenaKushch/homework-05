@@ -542,7 +542,7 @@
         <form class="window-form">
           <div class="input-box">
             <label for="user-name" class="form-label">Name</label>
-            <div class="input-box">
+            <div class="input-wrapper">
               <input
                 type="text"
                 name="user_name"
@@ -555,24 +555,34 @@
             </div>
           </div>
 
-          <label for="user-phone" class="form-label">Phone</label>
           <div class="input-box">
-            <svg class="form-icon" width="13" height="13">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-            <input
-              type="tel"
-              name="user_phone"
-              id="user-phone"
-              class="form-input"
-            />
+            <label for="user-phone" class="form-label">Phone</label>
+            <div class="input-wrapper">
+              <svg class="form-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input
+                type="tel"
+                name="user_phone"
+                id="user-phone"
+                class="form-input"
+              />
+            </div>
           </div>
 
-          <label for="user-email" class="form-label">Email</label>
           <div class="input-box">
-            <svg class="form-icon" width="15" height="12">
-              <use href="./images/icons.svg#icon-post"></use>
-            </svg>
+            <label for="user-email" class="form-label">Email</label>
+            <div class="input-wrapper">
+              <svg class="form-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-post"></use>
+              </svg>
+              <input
+                type="email"
+                name="user_email"
+                id="user-email"
+                class="form-input"
+              />
+            </div>
           </div>
 
           <label for="user-comment" class="form-label">Comment</label>
