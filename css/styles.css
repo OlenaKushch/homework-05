@@ -859,10 +859,10 @@ p {
   justify-content: center;
   fill: transparent;
 }
-/*.privacy-link {
+.privacy-link {
   color: #4d5ae5;
   text-decoration: underline;
-}*/
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
