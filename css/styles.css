@@ -560,6 +560,27 @@ p {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-form-labe {
+  display: block;
+
+  gap: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.form-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
 .icon-send-btn {
   fill: #ffffff;
   margin-left: 16px;
@@ -597,7 +618,7 @@ p {
   color: #8e8f99;
   margin-bottom: 4px;
 }
-.form {
+.form-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
